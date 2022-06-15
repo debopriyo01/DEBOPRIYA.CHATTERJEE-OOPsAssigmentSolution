@@ -1,5 +1,7 @@
-package com.greatlarning;
+package com.greatlarning.HR;
 
+
+import com.greatlarning.Super.Super_Department;
 public class Hr_Department extends Super_Department {
 
 	/**
@@ -43,5 +45,5 @@ public String departmentName() {
 	
 	public String getDoActivity() {
 		return doActivity;
-	}	
+}
 }

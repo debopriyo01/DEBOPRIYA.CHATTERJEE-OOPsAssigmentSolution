@@ -1,9 +1,7 @@
-package com.greatlarning;
+package com.greatlarning.Super;
 
 public class Super_Department {
 
-
-	
 	String departmentname;
 	String todaysWork;
 	String workdedline;
@@ -43,5 +41,5 @@ public class Super_Department {
 		 TodayHoliday="Today is not a Holiday";
 		 
 		 return  TodayHoliday;
-	}
+}
 }

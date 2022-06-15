@@ -1,6 +1,9 @@
-package com.greatlarning;
+package com.greatlarning.Tech;
+
+import com.greatlarning.Super.*;
 
 public class Tech_Department extends Super_Department {
+
 
 	/**
 	 * )  departmentName 
@@ -41,5 +44,4 @@ public String departmentName() {
 	}
 	public String getTechStackInformation() {
 		return TechStackInformation;
-	}
 }

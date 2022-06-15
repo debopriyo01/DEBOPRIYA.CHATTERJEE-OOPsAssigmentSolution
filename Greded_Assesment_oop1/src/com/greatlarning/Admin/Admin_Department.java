@@ -1,6 +1,8 @@
-package com.greatlarning;
+package com.greatlarning.Admin;
 
-public class Admin_Department extends Super_Department{
+import com.greatlarning.Super.Super_Department;
+
+public class Admin_Department extends Super_Department {
 
 	/**
 	 *                i)  departmentName 
@@ -32,5 +34,5 @@ public class Admin_Department extends Super_Department{
 	public String getWorkDeadline() {
 		return workdedline;
 		
-	}
+}
 }
